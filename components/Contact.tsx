@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
         </h2>
         <div className="flex flex-col lg:flex-row gap-12">
           <div className="flex-1">
-            <form action="mailto:anandafa123@gmail.com" method="post" encType="text/plain" className="space-y-6">
+            <form action="mailto:anandafa.syukur@alumni.ui.ac.id" method="post" encType="text/plain" className="space-y-6">
               <div>
                 <label htmlFor="name" className="sr-only">Name</label>
                 <input type="text" name="name" id="name" placeholder="Your Name" className="w-full bg-dark-bg/50 border-2 border-border-gray rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-vermilion focus:border-vermilion transition-all duration-300" required />
@@ -38,9 +38,9 @@ const Contact: React.FC = () => {
                 <WhatsAppIcon />
                 <span>0851-5506-0832</span>
               </a>
-              <a href="mailto:anandafa123@gmail.com" className="flex items-center gap-4 text-light-gray hover:text-white transition-colors">
+              <a href="mailto:anandafa.syukur@alumni.ui.ac.id" className="flex items-center gap-4 text-light-gray hover:text-white transition-colors">
                 <MailIcon />
-                <span>anandafa123@gmail.com</span>
+                <span>anandafa.syukur@alumni.ui.ac.id</span>
               </a>
               <a href="https://www.linkedin.com/in/dafasr/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-light-gray hover:text-white transition-colors">
                 <LinkedInIcon />
