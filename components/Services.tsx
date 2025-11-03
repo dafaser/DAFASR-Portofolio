@@ -13,7 +13,7 @@ const Services: React.FC = () => {
   return (
     <section id="services" className="py-20 md:py-32">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 font-grotesk">What I Can Help You With</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 font-grotesk">Digital Solutions for Your Business</h2>
         <p className="text-light-gray mb-12 max-w-2xl mx-auto">Offering a diverse range of services to bring your ideas to life.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mb-16">
           {servicesData.map((service, index) => (

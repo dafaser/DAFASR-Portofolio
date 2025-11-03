@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 type IconProps = {
@@ -103,5 +104,41 @@ export const MegaphoneIcon: React.FC<IconProps> = (props) => (
 export const ComputerDesktopIcon: React.FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" {...props}>
     <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-1.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25A2.25 2.25 0 015.25 3h13.5A2.25 2.25 0 0121 5.25z" />
+  </svg>
+);
+
+export const MicrosoftOfficeIcon: React.FC<IconProps> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M2 2h9v9H2V2zm9 9v11h11V11H11zM2 13h9v9H2v-9zm9-2V2h11v9H11z"/>
+  </svg>
+);
+
+export const GoogleWorkspaceIcon: React.FC<IconProps> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M21.35,11.1H12.18V13.83H18.69C18.36,17.64 15.19,19.27 12.19,19.27C8.36,19.27 5,16.25 5,12C5,7.9 8.2,4.73 12.19,4.73C15.29,4.73 17.1,6.7 17.1,6.7L19,4.72C19,4.72 16.56,2.18 12.19,2.18C6.42,2.18 2.5,6.58 2.5,12C2.5,17.42 6.42,21.82 12.19,21.82C17.5,21.82 21.5,18.27 21.5,12.91C21.5,11.76 21.35,11.1 21.35,11.1Z" />
+  </svg>
+);
+
+export const ChatGPTIcon: React.FC<IconProps> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path fillRule="evenodd" clipRule="evenodd" d="M12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2ZM12 4C7.582 4 4 7.582 4 12C4 16.418 7.582 20 12 20C16.418 20 20 16.418 20 12C20 7.582 16.418 4 12 4ZM9.68 8.16L11.43 7.02L14.32 8.79V10.74L12.57 11.88L9.68 10.11V8.16ZM12 12.5L14.32 11.31V13.26L12.57 14.4L12 14.75L11.43 14.4L9.68 13.26V11.31L12 12.5ZM14.88 14.07L16.63 12.93V15.33L14.88 16.47V14.07ZM7.37 12.93L9.12 14.07V16.47L7.37 15.33V12.93Z"/>
+  </svg>
+);
+
+export const NotionIcon: React.FC<IconProps> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M16,4.22V19.78H13.67V9.39L10.33,12V9.39L13.45,7.11H9.33V4.22H16ZM8,10.33V19.78H5.33V10.33H8Z"/>
+  </svg>
+);
+
+export const CanvaIcon: React.FC<IconProps> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm3.21,11.79A1.19,1.19,0,0,1,14,13a1.18,1.18,0,0,1-1.18-1.21V10.59a2.38,2.38,0,0,0-2.38-2.38H9.38A2.38,2.38,0,0,0,7,10.59v2.82A2.38,2.38,0,0,0,9.38,15.79h1.21a2.38,2.38,0,0,0,2.38-2.38v-1A1.2,1.2,0,0,1,14,11.18a1.2,1.2,0,0,1,1.18,1.21,1.2,1.2,0,0,1-1.18,1.22H12.82a1.18,1.18,0,1,1,0-2.36h1.21A2.38,2.38,0,0,0,15.21,9a1.2,1.2,0,0,1,0,2.39Z"/>
+  </svg>
+);
+
+export const ClickUpIcon: React.FC<IconProps> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M7.34,2.06,2.06,7.34a1.5,1.5,0,0,0,0,2.12l5.28,5.28a1.5,1.5,0,0,0,2.12,0L14.74,9.46a1.5,1.5,0,0,0,0-2.12L9.46,2.06A1.5,1.5,0,0,0,7.34,2.06ZM16.66,9.46,14.74,11.38,11.38,14.74l1.92,1.92,5.28-5.28a1.5,1.5,0,0,0,0-2.12l-1.92-1.92A1.5,1.5,0,0,0,16.66,9.46Z"/>
   </svg>
 );
