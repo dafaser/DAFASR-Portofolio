@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import Organizations from './components/Organizations';
 import Skills from './components/Skills';
 import Services from './components/Services';
+import AskTheUniverse from './components/AskTheUniverse';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackToTopButton from './components/BackToTopButton';
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <Organizations />
         <Skills />
         <Services />
+        <AskTheUniverse />
         <Contact />
       </main>
       <Footer />
