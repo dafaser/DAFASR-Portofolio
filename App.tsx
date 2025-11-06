@@ -1,7 +1,7 @@
-
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Marquee from './components/Marquee';
 import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -18,6 +18,7 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
+        <Marquee />
         <About />
         <Education />
         <Experience />
