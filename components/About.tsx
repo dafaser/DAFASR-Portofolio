@@ -11,7 +11,7 @@ const About: React.FC = () => {
         <div className="flex justify-center">
           <div className="text-center max-w-2xl">
             <p className="text-base md:text-lg text-light-gray mb-6">
-              Fresh graduate in Information Systems from Universitas Indonesia with hands-on experience in project execution, stakeholder coordination, and digital operations across banking tech.
+              Fresh graduate in Computer Science from Universitas Indonesia with hands-on experience in project execution, stakeholder coordination, and digital operations across banking tech.
             </p>
             <p className="text-base md:text-lg text-light-gray mb-6">
               Driven by a passion for transforming ideas into measurable results through structured planning, collaboration, and analytical problem-solving.

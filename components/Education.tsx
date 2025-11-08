@@ -14,7 +14,7 @@ const Education: React.FC = () => {
             </div>
           </div>
           <h3 className="text-2xl font-bold text-white">Universitas Indonesia</h3>
-          <p className="text-vermilion font-medium mt-1">Bachelor’s Degree, Information Systems (2021–2025)</p>
+          <p className="text-vermilion font-medium mt-1">Bachelor’s Degree, Computer Science (2021–2025)</p>
           <hr className="my-6 border-border-gray" />
           <p className="text-light-gray italic">
             <strong>Thesis:</strong> “Examining the Effect of Dark Patterns Deception on Repurchase Intention in Shopee: The Role of Trust Transfer and Perceived Effectiveness of E-Commerce Institutional Mechanisms (PEEIM)”

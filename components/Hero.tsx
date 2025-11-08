@@ -93,7 +93,7 @@ const Hero: React.FC = () => {
           </span>
         </h1>
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-light-gray mb-8 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-          Fresh Graduate IS Student @ Universitas Indonesia | Ex Bank Mandiri (BCM Dept / IT Risk Management)
+          Fresh Graduate Computer Science Student @ Universitas Indonesia | Ex Bank Mandiri (BCM Dept / IT Risk Management)
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
           <a href="https://drive.google.com/file/d/1WaiUJ8ttDCk6eCt6xGQwvxNu1UQIs_8A/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 bg-vermilion text-white font-semibold rounded-lg shadow-glow hover:bg-neon-accent transition-all duration-300 transform hover:scale-105">
