@@ -12,7 +12,7 @@ const experienceData = [
     ]
   },
   {
-    company: "PT Bank Mandiri Tbk",
+    company: "PT Bank Mandiri",
     role: "Business Continuity Management Intern",
     duration: "Sep–Dec 2024",
     tasks: [
