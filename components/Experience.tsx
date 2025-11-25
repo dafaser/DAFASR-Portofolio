@@ -3,6 +3,15 @@ import React from 'react';
 
 const experienceData = [
   {
+    company: "PT Bank Mega",
+    role: "Operasional Risk Management Specialist Intern",
+    duration: "Nov 2024–Present",
+    tasks: [
+      "Developed the Business Requirement Document (BRD) for the Business Continuity Plan (BCP) module within the Operational Risk Web Links (OWL) system.",
+      "Covered end-to-end functional flows, user journeys (UCC–Approval–ORMG–BCM), system integration requirements, approval workflow logic, and compliance-aligned BIA/RTO/RPO structures."
+    ]
+  },
+  {
     company: "PT Bank Mandiri Tbk",
     role: "Business Continuity Management Intern",
     duration: "Sep–Dec 2024",
