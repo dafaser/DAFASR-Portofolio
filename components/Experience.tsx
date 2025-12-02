@@ -8,7 +8,8 @@ const experienceData = [
     duration: "Nov 2025–Present",
     tasks: [
       "Developed the Business Requirement Document (BRD) for the Business Continuity Plan (BCP) module within the Operational Risk Web Links (OWL) system.",
-      "Covered end-to-end functional flows, user journeys (UCC–Approval–ORMG–BCM), system integration requirements, approval workflow logic, and compliance-aligned BIA/RTO/RPO structures."
+      "Covered end-to-end functional flows, user journeys (UCC–Approval–ORMG–BCM), system integration requirements, approval workflow logic, and compliance-aligned BIA/RTO/RPO structures.",
+      "Conducted analytical reviews of Bank Mega’s operational risk management reports submitted to the OJK."
     ]
   },
   {

@@ -19,9 +19,8 @@ const About: React.FC = () => {
             <div className="mt-8 p-6 glass-card rounded-lg">
               <h3 className="font-semibold text-lg text-white mb-3">Currently seeking opportunities in:</h3>
               <div className="flex flex-wrap justify-center gap-3">
-                <span className="bg-dark-card border border-border-gray text-vermilion text-sm font-medium px-4 py-2 rounded-full">IT Risk Management</span>
+                <span className="bg-dark-card border border-border-gray text-vermilion text-sm font-medium px-4 py-2 rounded-full">Risk Management</span>
                 <span className="bg-dark-card border border-border-gray text-vermilion text-sm font-medium px-4 py-2 rounded-full">Project Management</span>
-                <span className="bg-dark-card border border-border-gray text-vermilion text-sm font-medium px-4 py-2 rounded-full">Product Management</span>
               </div>
             </div>
           </div>

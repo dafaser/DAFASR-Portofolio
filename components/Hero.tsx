@@ -96,7 +96,7 @@ const Hero: React.FC = () => {
           Fresh Graduate Computer Science Student @ Universitas Indonesia | Ex Bank Mandiri (BCM Dept / IT Risk Management)
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-          <a href="https://drive.google.com/file/d/1WaiUJ8ttDCk6eCt6xGQwvxNu1UQIs_8A/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 bg-vermilion text-white font-semibold rounded-lg shadow-glow hover:bg-neon-accent transition-all duration-300 transform hover:scale-105">
+          <a href="https://drive.google.com/file/d/1-cSB52FOBbTai3KXKhOOMCGgjlzX2mVS/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 bg-vermilion text-white font-semibold rounded-lg shadow-glow hover:bg-neon-accent transition-all duration-300 transform hover:scale-105">
             <DocumentIcon /> View My CV
           </a>
           <a href="https://www.linkedin.com/in/dafasr/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 bg-transparent border-2 border-vermilion text-white font-semibold rounded-lg hover:bg-vermilion hover:shadow-glow transition-all duration-300 transform hover:scale-105">
