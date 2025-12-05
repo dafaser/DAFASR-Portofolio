@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { LinkedInIcon, WhatsAppIcon, MailIcon } from './icons';
 
@@ -9,7 +8,7 @@ const Contact: React.FC = () => {
       <div className="absolute -top-48 -left-48 w-96 h-96 bg-vermilion/10 rounded-full blur-3xl"></div>
       
       <div className="container mx-auto px-6 relative z-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-grotesk">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-grotesk reveal">
           Get In <span className="text-vermilion">Touch</span>
         </h2>
         
@@ -19,7 +18,7 @@ const Contact: React.FC = () => {
             href="https://wa.me/6285155060832" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="flex-1 glass-card p-8 rounded-xl flex flex-col items-center justify-center group transition-all duration-300 hover:border-vermilion hover:shadow-glow transform hover:-translate-y-2 text-center"
+            className="flex-1 glass-card p-8 rounded-xl flex flex-col items-center justify-center group transition-all duration-300 hover:border-vermilion hover:shadow-glow transform hover:-translate-y-2 text-center reveal"
           >
             <div className="w-12 h-12 text-vermilion mb-4 transition-transform duration-300 group-hover:scale-110">
               <WhatsAppIcon className="w-full h-full" />
@@ -31,7 +30,8 @@ const Contact: React.FC = () => {
           {/* Email */}
           <a 
             href="mailto:anandafa.syukur@alumni.ui.ac.id" 
-            className="flex-1 glass-card p-8 rounded-xl flex flex-col items-center justify-center group transition-all duration-300 hover:border-vermilion hover:shadow-glow transform hover:-translate-y-2 text-center"
+            className="flex-1 glass-card p-8 rounded-xl flex flex-col items-center justify-center group transition-all duration-300 hover:border-vermilion hover:shadow-glow transform hover:-translate-y-2 text-center reveal"
+            style={{ transitionDelay: '0.1s' }}
           >
             <div className="w-12 h-12 text-vermilion mb-4 transition-transform duration-300 group-hover:scale-110">
               <MailIcon className="w-full h-full" />
@@ -45,7 +45,8 @@ const Contact: React.FC = () => {
             href="https://www.linkedin.com/in/dafasr/" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="flex-1 glass-card p-8 rounded-xl flex flex-col items-center justify-center group transition-all duration-300 hover:border-vermilion hover:shadow-glow transform hover:-translate-y-2 text-center"
+            className="flex-1 glass-card p-8 rounded-xl flex flex-col items-center justify-center group transition-all duration-300 hover:border-vermilion hover:shadow-glow transform hover:-translate-y-2 text-center reveal"
+            style={{ transitionDelay: '0.2s' }}
           >
             <div className="w-12 h-12 text-vermilion mb-4 transition-transform duration-300 group-hover:scale-110">
               <LinkedInIcon className="w-full h-full" />

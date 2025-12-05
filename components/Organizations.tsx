@@ -84,22 +84,24 @@ const Organizations: React.FC = () => {
   return (
     <section id="organizations" className="py-20 md:py-32 bg-dark-card">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 font-grotesk">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 font-grotesk reveal">
           Organization & <span className="text-vermilion">Volunteering</span>
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {orgData.map((org, index) => (
-                <OrganizationCard key={index} {...org} />
+                <div key={index} className="reveal">
+                    <OrganizationCard {...org} />
+                </div>
             ))}
         </div>
 
-        <hr className="glowing-divider my-16" />
+        <hr className="glowing-divider my-16 reveal" />
 
-        <h3 className="text-2xl font-bold text-center mb-12 font-grotesk">Memberships</h3>
+        <h3 className="text-2xl font-bold text-center mb-12 font-grotesk reveal">Memberships</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 max-w-2xl mx-auto items-start">
             {membershipData.map((member, index) => (
-                <div key={index} className="flex flex-col items-center text-center group">
+                <div key={index} className="flex flex-col items-center text-center group reveal">
                     <div className="w-24 h-24 flex items-center justify-center glass-card rounded-full border-2 border-border-gray group-hover:border-vermilion group-hover:shadow-glow transition-all duration-300 mb-4">
                         <div className="text-vermilion w-10 h-10">{member.icon}</div>
                     </div>

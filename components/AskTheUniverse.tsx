@@ -97,14 +97,14 @@ const AskTheUniverse: React.FC = () => {
   return (
     <section id="ask-the-universe" className="py-20 md:py-32">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 reveal">
             <h2 className="text-3xl md:text-4xl font-bold font-grotesk">Ask the <span className="text-vermilion">Universe</span></h2>
             <p className="mt-4 max-w-2xl mx-auto text-light-gray">
                 Curious about your future? Just ask — the universe will answer in mysterious ways
             </p>
         </div>
 
-        <div className="max-w-2xl mx-auto glass-card rounded-2xl p-6 md:p-8 shadow-lg border border-border-gray">
+        <div className="max-w-2xl mx-auto glass-card rounded-2xl p-6 md:p-8 shadow-lg border border-border-gray reveal">
           <div className="relative bg-dark-bg border border-border-gray rounded-xl min-h-[100px] flex items-center justify-center text-center p-4 mb-6">
             <p className={`text-xl md:text-2xl font-medium transition-opacity duration-300 ${showAnswer ? 'opacity-100' : 'opacity-0'}`}>
               {currentAnswer}
@@ -143,7 +143,7 @@ const AskTheUniverse: React.FC = () => {
         </div>
 
         {history.length > 0 && (
-          <div className="max-w-2xl mx-auto mt-12">
+          <div className="max-w-2xl mx-auto mt-12 reveal">
             <h3 className="text-xl font-bold text-center mb-6 font-grotesk">Recent History</h3>
             <div className="space-y-4">
               {history.map(item => (

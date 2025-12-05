@@ -1,15 +1,14 @@
-
 import React from 'react';
 
 const About: React.FC = () => {
   return (
     <section id="about" className="py-20 md:py-32">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-grotesk">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-grotesk reveal">
           About <span className="text-vermilion">Me</span>
         </h2>
         <div className="flex justify-center">
-          <div className="text-center max-w-2xl">
+          <div className="text-center max-w-2xl reveal">
             <p className="text-base md:text-lg text-light-gray mb-6">
               Fresh graduate in Computer Science from Universitas Indonesia with hands-on experience in project execution, stakeholder coordination, and digital operations across banking tech.
             </p>

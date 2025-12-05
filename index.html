@@ -111,6 +111,20 @@
       .text-glow {
         text-shadow: 0 0 8px rgba(227, 66, 52, 0.5);
       }
+
+      /* Scroll Animation Styles */
+      html {
+        scroll-behavior: smooth;
+      }
+      .reveal {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 0.7s ease-out;
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
     </style>
   <script type="importmap">
 {

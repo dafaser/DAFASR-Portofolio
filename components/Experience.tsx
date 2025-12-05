@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const experienceData = [
@@ -62,12 +61,12 @@ const Experience: React.FC = () => {
   return (
     <section id="experience" className="py-20 md:py-32">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 font-grotesk">Experience</h2>
-        <p className="text-center text-light-gray mb-12">My professional journey and key contributions.</p>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 font-grotesk reveal">Experience</h2>
+        <p className="text-center text-light-gray mb-12 reveal">My professional journey and key contributions.</p>
         <div className="space-y-8 relative">
-          <div className="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-border-gray hidden lg:block"></div>
+          <div className="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-border-gray hidden lg:block reveal"></div>
           {experienceData.map((exp, index) => (
-            <div key={index} className="lg:w-full lg:mx-auto">
+            <div key={index} className="lg:w-full lg:mx-auto reveal">
               <ExperienceCard {...exp} />
             </div>
           ))}
