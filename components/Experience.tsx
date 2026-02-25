@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ChevronDownIcon } from './icons';
 
 const experienceData = [
   {
+    company: "PT Bank Rakyat Indonesia",
+    role: "BRIlian Future Leader Program (BFLP) Risk Management",
+    duration: "Feb 2026–Present",
+    tasks: []
+  },
+  {
     company: "PT Bank Mega",
     role: "Operasional Risk Management Specialist Intern",
-    duration: "Nov 2025–Present",
+    duration: "Nov 2025–Jan 2026",
     tasks: [
       "Developed the Business Requirement Document (BRD) for the Business Continuity Plan (BCP) module within the Operational Risk Web Links (OWL) system.",
       "Covered end-to-end functional flows, user journeys (UCC–Approval–ORMG–BCM), system integration requirements, approval workflow logic, and compliance-aligned BIA/RTO/RPO structures.",
@@ -42,20 +49,46 @@ const experienceData = [
   }
 ];
 
-const ExperienceCard: React.FC<typeof experienceData[0]> = ({ company, role, duration, tasks }) => (
-  <div className="glass-card rounded-xl p-6 transition-all duration-300 hover:border-vermilion hover:shadow-glow transform hover:-translate-y-2">
-    <div className="flex justify-between items-start mb-2">
-      <h3 className="text-xl font-bold text-white">{company}</h3>
-      <span className="text-sm text-light-gray flex-shrink-0 ml-4">{duration}</span>
+const ExperienceCard: React.FC<typeof experienceData[0]> = ({ company, role, duration, tasks }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const hasTasks = tasks.length > 0;
+
+  return (
+    <div 
+      className={`glass-card rounded-xl p-6 transition-all duration-300 hover:border-vermilion hover:shadow-glow transform hover:-translate-y-1 ${hasTasks ? 'cursor-pointer' : ''}`}
+      onClick={() => hasTasks && setIsOpen(!isOpen)}
+    >
+      <div className="flex justify-between items-start mb-2">
+        <div className="flex-1">
+          <h3 className="text-xl font-bold text-white">{company}</h3>
+          <p className="text-vermilion font-semibold">{role}</p>
+        </div>
+        <div className="flex flex-col items-end ml-4">
+          <span className="text-sm text-light-gray whitespace-nowrap mb-2">{duration}</span>
+          {hasTasks && (
+            <ChevronDownIcon 
+              className={`w-5 h-5 text-vermilion transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`} 
+            />
+          )}
+        </div>
+      </div>
+      
+      {hasTasks && (
+        <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[500px] mt-4 opacity-100' : 'max-h-0 opacity-0'}`}>
+          <ul className="list-disc list-inside space-y-2 text-light-gray border-t border-border-gray pt-4">
+            {tasks.map((task, index) => (
+              <li key={index} className="text-sm md:text-base leading-relaxed">{task}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      
+      {hasTasks && !isOpen && (
+        <p className="text-[10px] text-light-gray/40 mt-2 italic text-right">Click to see details</p>
+      )}
     </div>
-    <p className="text-vermilion font-semibold mb-4">{role}</p>
-    <ul className="list-disc list-inside space-y-2 text-light-gray">
-      {tasks.map((task, index) => (
-        <li key={index}>{task}</li>
-      ))}
-    </ul>
-  </div>
-);
+  );
+};
 
 const Experience: React.FC = () => {
   return (
